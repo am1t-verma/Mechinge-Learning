@@ -1,71 +1,28 @@
-# 🤖 Machine Learning Models
+# 🤖 Machine Learning Projects
 
-This repository contains implementations of various **Machine Learning algorithms** built for learning, experimentation, and practice.
+Hands-on implementations of core ML algorithms with real-world datasets.
 
-The aim of this project is to build a collection of commonly used ML models and understand how they work through hands-on implementation.
-
-Each model will be organized in its own folder and will typically include:
-
-* Implementation notebook or script
-* Dataset used for experimentation
-* Required libraries
+> 🚧 Actively updating — adding and revising algorithms regularly.
 
 ---
 
-## 📂 Repository Structure
+## ✅ Algorithms Covered So Far
 
-```
-ML/
-│
-├── Model_Folder/
-│   ├── model.ipynb
-│   ├── dataset.csv
-│   └── requirements.txt
-│
-└── README.md
-```
+| Algorithm | Dataset | Key Metric |
+|-----------|---------|------------|
+| Linear Regression | Insurance | R² = 0.963 |
+| Logistic Regression | Bank Marketing | Accuracy = 89.7% |
+| Decision Tree | Heart Disease | Accuracy = 77.0% (tuned) |
+| Random Forest | Credit Card Fraud | Precision scored |
+| Random Forest | Customer Churn | Accuracy = 81.6%, ROC-AUC = 0.777 |
 
-Each folder represents a **different Machine Learning model**.
+*More algorithms being added...*
 
 ---
 
-## 🧠 Models Covered
-
-This repository will gradually include different types of ML algorithms such as:
-
-* Regression Models
-* Classification Models
-* Clustering Algorithms
-* Ensemble Methods
-* Neural Networks
-
-More models will be added as part of continuous learning and experimentation.
+## ⚙️ Tech Stack
+Python · NumPy · Pandas · Matplotlib · Seaborn · Scikit-learn · Jupyter Notebook
 
 ---
 
-## ⚙️ Requirements
-
-Common libraries used in this repository:
-
-* Python
-* NumPy
-* Pandas
-* Matplotlib
-* Scikit-learn
-* Jupyter Notebook
-
-You can install required libraries using:
-
-```
-pip install -r requirements.txt
-```
-
----
-
-## 🎯 Purpose of this Repository
-
-* Practice and understand Machine Learning algorithms
-* Build a structured ML model collection
-* Document learning progress in Data Science and AI
-
-This repository will continue to grow as more models are implemented and explored.
+**Author:** Amit Verma · [GitHub](https://github.com/am1t-verma)
